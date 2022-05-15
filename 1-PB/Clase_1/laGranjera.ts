@@ -1,0 +1,11 @@
+console.log("moverAdelante");
+console.log("rellenar");
+console.log("moverAdelante");
+console.log("moverAdelante");
+console.log("moverAdelante");
+console.log("rellenar");
+console.log("moverAdelante");
+console.log("quitar");
+console.log("moverAdelante");
+console.log("quitar");
+console.log("moverAdelante");
