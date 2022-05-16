@@ -4,14 +4,16 @@ informarlo */
 
 import * as rls from 'readline-sync'
 
-let numero : number = rls.questionFloat('Ingrese un numero: ')
+let numero : number = rls.questionFloat('Ingrese un numero: ');
  
 if (numero == 0) {
-    console.log('El numero ingresado es igual a cero')
+    console.log('El numero ingresado es igual a cero');
 }
-if (numero % 2 == 0 && numero!= 0) {
-    console.log('El numero ingresado es par')
+    else if (numero % 2 == 0 && numero!= 0) {
+    console.log('El numero ingresado es par');
 }
-if (numero % 2 != 0) {
-    console.log('El numero ingresado es impar')
+        else if (numero % 2 != 0) {
+    console.log('El numero ingresado es impar');
 }
+
+/*Corregido else anidados 16-5-2022*/

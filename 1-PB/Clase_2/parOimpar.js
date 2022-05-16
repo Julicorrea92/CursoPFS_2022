@@ -8,9 +8,10 @@ var numero = rls.questionFloat('Ingrese un numero: ');
 if (numero == 0) {
     console.log('El numero ingresado es igual a cero');
 }
-if (numero % 2 == 0 && numero != 0) {
+else if (numero % 2 == 0 && numero != 0) {
     console.log('El numero ingresado es par');
 }
-if (numero % 2 != 0) {
+else if (numero % 2 != 0) {
     console.log('El numero ingresado es impar');
 }
+/*Corregido else anidados 16-5-2022*/ 

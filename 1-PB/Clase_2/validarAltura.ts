@@ -15,5 +15,5 @@ else{
 }
 
 
- /*Consultar porque se funciona con questionFloat y no questionInit*/
+ /*Aclarada la diferencia entre Int y Float y se profundizo sobre los distintos casos*/
     

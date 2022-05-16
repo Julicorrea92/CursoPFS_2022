@@ -12,4 +12,4 @@ if (alturaPersona >= 1.30) {
 else {
     console.log('Tu altura NO es la permitida para subir a la montaña rusa.');
 }
-/*Consultar porque se funciona con questionFloat y no questionInit*/
+/*Aclarada la diferencia entre Int y Float y se profundizo sobre los distintos casos*/
