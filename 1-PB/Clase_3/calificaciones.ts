@@ -50,3 +50,5 @@ console.log('La carga de datos ha finalizado');
 /*Averiguar como colocar valores negativos para la prueba de escritorio en la carga de cada nota. 
 A priori si se pone como valor limite mayor a diez en la funcion da buen resultado pero
 si ingreso numero negativos me lo toma y no deberia hacerlo.*/
+
+/*Se va a probar commit sin los .js*/
