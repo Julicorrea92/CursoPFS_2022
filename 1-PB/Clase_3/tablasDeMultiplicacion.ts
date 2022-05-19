@@ -26,4 +26,4 @@ console.log(numeroX,'','X','',contador,'=', (resultado));
 /*Probe con console.log(numeroX+''+'X'+''+contador+'='+ (resultado)) (similar al console.log de calificaciones.ts)
 pero los resultados se pegaban, poniendo comas queda mas prolijo el programa*/
 
-/*Se va a probar commit sin los .js*/
+ /*Se va a probar commit sin los .js*/

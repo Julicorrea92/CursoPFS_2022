@@ -9,7 +9,7 @@ for (contador=1; contador<11; contador++) {
 promedio = suma/10;
 console.log("El promedio de las notas es: " + promedio);
 
-/*Se va a probar commit sin los .js*/
+ /*Se va a probar commit sin los .js*/
 
 
 

@@ -17,4 +17,4 @@ llegadaColectivo = rls.question('Llegó el colectivo? (S/N): ');
 console.log('Subir al colectivo');
 
 
-/*Se va a probar commit sin los .js*/
+ /*Se va a probar commit sin los .js*/

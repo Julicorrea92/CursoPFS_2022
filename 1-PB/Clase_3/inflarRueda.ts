@@ -12,4 +12,4 @@ rueda++;// rueda = rueda+1// rueda+=1
 
 /* si realizo la prueba con ambos codigos activados, la función se ejecuta dos veces*/
 
-/*Se va a probar commit sin los .js*/
+ /*Se va a probar commit sin los .js*/
