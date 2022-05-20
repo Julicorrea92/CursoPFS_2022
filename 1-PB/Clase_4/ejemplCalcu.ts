@@ -11,4 +11,4 @@ function dibujar(numero: number, simbolo: number) {
 let i : number, linea : string;
 let numero1 : number = rls.questionInt("Ingrese un número: "); ;
 let numero2 : number = rls.questionInt("Ingrese un número: "); ;
-let opcionMenu : number = rls.questionInt("Ingrese 1 para sumar, 2 para restar, cualquier");
+let opcionMenu : number = rls.questionInt("Ingrese 1 para sumar, 2 para restar, cualquier"); 
