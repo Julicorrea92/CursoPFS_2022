@@ -15,4 +15,4 @@ console.log ('El area es =', calcularAreaTriangulo(i,i*2))
 function calcularAreaTriangulo (base:number, altura:number): number{
     return (base*altura/2);
 
-}
+}/*commit clase 4*/
