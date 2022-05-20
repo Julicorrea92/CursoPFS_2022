@@ -31,3 +31,7 @@ node_modules/readline-sync/lib/readline-sync.js
 package-lock.json
 package.json
 Material de consulta/Clase 1/A.1 Conociendo tu PC.pdf
+1-PB/*/*.js
+
+.gitignore
+
