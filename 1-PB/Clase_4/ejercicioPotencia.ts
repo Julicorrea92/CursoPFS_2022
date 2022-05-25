@@ -12,30 +12,29 @@ console.log('')
 let base: number = rls.questionInt ('Ingresar el numero que quiera calcular: ');
 let exponente: number = rls.questionInt ('Ingresar el exponente: '); 
 
+let resultado:number;
 
-let resultado:number = calcularPotencia(base, exponente);
-console.log('El resultado es: ', resultado);
+    while (exponente>0){
     
-function calcularPotencia (base: number, exponente: number): number {
-    
-    if (exponente>0){
-        return (base**exponente);
-}    
-    else if (exponente == 0){
-        return 1
-} 
-let menorDeCero: boolean= true;
-    while (menorDeCero =true){
+calcularPotencia(base, exponente);
 
-        (exponente<0);{
+}
+    if (exponente<0){
+        
         console.log("El exponente ingresado es invalido, por favor ingrese un numero igual o mayor a cero");
         exponente =rls.questionInt ('Ingresar el exponente: ');
-        }
-        return calcularPotencia (base,exponente);
+
     }
+
+    else calcularPotencia (base,exponente);
+
+        console.log('El resultado es: ', resultado);
+    
+
+function calcularPotencia (base: number, exponente: number): number {
+    
+    return (base**exponente);
+
 }
     
-/*Hice un agregado a la consigna y ante el error de ingresar un numero menor a cero un booleano te pide que rectifiques.
-Hecha la correción se hace el cálculo correspondiente.*/
-
-
+/*Ejercicio corregido, el control de exponente mayor a cero se realiza en el programa ppal.*/

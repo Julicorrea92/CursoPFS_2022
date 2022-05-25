@@ -7,30 +7,33 @@ divisores
 import * as rls from 'readline-sync';
 
 let ejecucionPrograma: string;
-let divisor, contador : number;
+let multiplo, contador, divisor : number;
    
 
     console.log('Herramienta para contar divisores de un numero.');
     console.log('');
     
-ejecucionPrograma= rls.question('Oprima la tecla (i) para iniciar el programa: ');
+        ejecucionPrograma= rls.question('Oprima la tecla (i) para iniciar el programa: ');
 
-while(ejecucionPrograma == 'i'){
+    while(ejecucionPrograma == 'i'){
 
-    let numero: number = rls.questionInt('Ingresar el numero: ');
+let numero: number = rls.questionInt('Ingresar el numero: ');
     
-    console.log('El conteo de divisores de', numero, 'es de', cantDivisores(numero));
+        console.log('El conteo de divisores de', numero, 'es de', cantDivisores(numero));
 
-    ejecucionPrograma= rls.question('Oprima (i) para continuar. Presione enter para finalizar. ');
+        ejecucionPrograma= rls.question('Oprima (i) para continuar. Presione enter para finalizar. ');
 }
     
-function esDivisor (numero: number, divisor: number): boolean{
+function esMultiplo (numero: number, multiplo: number): boolean{
           
-    if ((numero % divisor) == 0){
-            return  true;
-            
-        }else {
+    if ((numero % multiplo) == 0){
+            return  true;   
+
+    }
+
+    else {
             return false
+            
     }
 }
 
@@ -38,8 +41,8 @@ function cantDivisores(numero:number){
 
 contador=0
 
-for(divisor = 0; divisor <= numero; divisor+=1){
-        if (esDivisor(numero,divisor)){
+for(divisor = 1; divisor <= numero; divisor+=1){
+        if (esMultiplo(numero,multiplo)){
             contador+=1;
         }
     }
@@ -49,5 +52,6 @@ for(divisor = 0; divisor <= numero; divisor+=1){
 /*El metodo me daba undefined constantemente. No salía porque ponia cruzado el valor de divisor con el contador. Poner atencion 
 en el for. 
 Se heredo la automatización generada en el ejercicio de multiplos
+Ejercicio corregido
 */
 
