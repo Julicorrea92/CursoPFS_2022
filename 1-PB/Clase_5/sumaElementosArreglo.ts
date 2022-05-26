@@ -20,21 +20,5 @@ let sumatoria =0;
     for (let contador=0; contador < cantidadElementos; contador ++ ){
 
         sumatoria += arregloElementos[contador];
-
 }
 console.log(sumatoria)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

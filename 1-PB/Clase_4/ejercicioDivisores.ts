@@ -54,4 +54,3 @@ en el for.
 Se heredo la automatización generada en el ejercicio de multiplos
 Ejercicio corregido
 */
-

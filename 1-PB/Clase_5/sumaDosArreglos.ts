@@ -19,7 +19,3 @@ let contador: number;
 }
 
 console.log('En el arreglo de destino se obtuvieron las siguientes operaciones:' + arregloDestino)
-
-
-
-
