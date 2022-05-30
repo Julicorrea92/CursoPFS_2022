@@ -36,5 +36,4 @@ function calcularPotencia (base: number, exponente: number): number {
     return (base**exponente);
 
 }
-    
 /*Ejercicio corregido, el control de exponente mayor a cero se realiza en el programa ppal.*/

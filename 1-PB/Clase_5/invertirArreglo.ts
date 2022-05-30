@@ -25,12 +25,6 @@ console.log(arregloElementos.reverse())
 
 
 
-
-
-
-
-
-
 /*let cantidadElementos: number= (rls.questionInt('Ingresar la cantidad de elementos: '));
 
 let arregloElementos: number [] = new Array (cantidadElementos);
