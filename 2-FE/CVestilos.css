@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+h4{ 
+    color:purple;
+    }
+
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    color:maroon;
+}
+
+#fotoPerfil{
+    height: 250px;
+    width: 250px;
+}
+
+.acerca{
+    color: purple;
+    font-weight: 500;
+    font-size: 30px;
+}
