@@ -15,7 +15,7 @@ let contador: number;
         arregloElementos [contador]= rls.questionInt("Colocar un numero al elemento "+contador+" : ");
     
 }
-let sumatoria =0;
+let sumatoria: number =0;
 
     for (let contador=0; contador < cantidadElementos; contador ++ ){
 
