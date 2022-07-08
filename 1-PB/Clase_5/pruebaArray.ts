@@ -1,14 +1,6 @@
-/*Construya un algoritmo que tenga un arreglo de números y se los muestre al usuario
-•El arreglo debe ser llamado num
-•El arreglo num debe contener los siguientes datos: 20, 14, 8, 0, 5, 19 y 24.
-• Mostrar los valores resultantes del arreglo*/
-
-
 import * as rls from 'readline-sync';
 
-
-
-/*let num: string []= new Array (7);
+let num: string []= new Array (7);
 
 let listado:number=0
 
@@ -20,7 +12,9 @@ num [4]='5';
 num [5]='19';
 num [6]='24';
 
-console.log ("Los valores son: "+ num);*/
+console.log ("Los valores son: "+ num);
+
+/*Arreglo que muestra de una todos los valores dentro de un arreglo*/
 
 let arregloMes : string[] = new Array (12) ;
 arregloMes[0] = "Enero";
@@ -36,5 +30,14 @@ arregloMes[9] = "Octubre";
 arregloMes[10] = "Noviembre"
 arregloMes[11] = "Diciembre";
 let nroMes : number = rls.questionInt("Indique el número de mes que le interesa: ");
-let indice = nroMes - 1; 
-console.log("El mes es ", arregloMes[indice] );
+let i = nroMes - 1; 
+console.log("El mes es ", arregloMes[i] );
+
+/*Arreglo por lista, más completo*/
+
+let arregloMonth : string[] = ['Enero', 'Febrero', 'Marzo', 'Abril','Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+let nroMonth : number = rls.questionInt("Indique el número de mes que le interesa: ");
+let indice = nroMonth - 1; 
+console.log("El mes es ", arregloMonth[indice] );
+
+/*Arreglo por extensión simplificado*/
