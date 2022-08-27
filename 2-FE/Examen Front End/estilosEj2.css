@@ -1,0 +1,20 @@
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+h1{ 
+    color: green;
+
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

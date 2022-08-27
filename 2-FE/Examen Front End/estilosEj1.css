@@ -1,0 +1,49 @@
+body{
+    background-color: grey; /*Aqui se define el color de fondo*/
+}
+h1{
+    color: rgb(221, 38, 38);/*Aqui se define el color de los titulos*/
+
+}
+.bold{
+
+    font-weight: bold; /*Aqui se define la negrita en la clase bold*/
+}
+
+.cont-img{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4em;
+    
+}/*Aqui se definen las caracteristicas del divisor para las 2 imagenes. */
+
+.cont-img img{
+
+    width: 500px;
+}/*Aqui buscamos el elemento puntual para darle medida acorde a la pantalla*/
+
+.cont-img2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+    border: solid;
+
+}/*Aqui definimos el segundo divisor para la imagen centrada. 
+Aparte se dejo el solido en el borde para que se note el contorno del divisor*/
+
+.cont-img2 img{
+
+    width: 300px;
+}/*Aqui se define el ancho de la foto pedido por consigna*/
+
+
+
+
+
+
+
