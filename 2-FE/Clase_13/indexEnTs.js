@@ -1,13 +1,8 @@
-'use strict'
-    
-let boton;
-
+'use strict';
+var boton;
 boton = document.getElementById("btnSaludo");
-
 boton.addEventListener("click", hacerSaludo);
-
-
-function hacerSaludo(){
+function hacerSaludo() {
     console.log('Hola Mundo!');
-    alert('Haz click para continuar')
+    alert('Haz click para continuar');
 }
