@@ -1,8 +1,8 @@
+
 export default class ConsolaDeVideojuegos {
     
     //Atributos
     
-        private id: number;
         private marca: string;
         private modelo: string;
         private portatil: boolean;
@@ -21,59 +21,43 @@ export default class ConsolaDeVideojuegos {
 
     //Constructores
 
-    public constructor (id: number, marca: string, modelo: string, portatil: boolean, mandos: string){
+    public constructor (marca: string, modelo: string, portatil: boolean, mandos: string){
 
      
         //Entrada directa (venta, despacho, control stock)
 
-        this.id = id;
         this.marca = marca;
         this.modelo = modelo;
         this.portatil = portatil;
+        this.mandos = mandos;
 
     }
   
     //Setters y getters
 
-    public getId(): number {
-        return this.id;
-    }
-    public setId(id: number): void {
-        this.id = id;
-    }
+    public getMarca(): string {return this.marca;}
+    public setMarca(marca: string): void {this.marca = marca;}
 
-    public getMarca(): string {
-        return this.marca;
-    }
-    public setMarca(marca: string): void {
-        this.marca = marca;
-    }
+    public getModelo(): string {return this.modelo;}
+    public setModelo(modelo: string): void {this.modelo = modelo;}
 
-    public getModelo(): string {
-        return this.modelo;
-    }
-    public setModelo(modelo: string): void {
-        this.modelo = modelo;
-    }
-
-    public getPortatil(): boolean {
-        return this.portatil;
-    }
-    public setPortatil(portatil: boolean): void {
-        this.portatil = portatil;
-    }
+    public getPortatil(): boolean {return this.portatil;}
+    public setPortatil(portatil: boolean): void { this.portatil = portatil;}
+    
+    public getMandos(): string {return this.mandos;}
+    public setMandos(mandos: string): void { this.mandos = mandos;}
 
     
     public imprimir() : string {
-        return `Consola { Id:${this.getId()}, Marca:${this.getMarca()}, Modelo:${this.getModelo()}, Portatil:${this.getPortatil()}}`
+        return `La consola tiene las siguientes caracteristicas: { Marca:${this.getMarca()}, Modelo:${this.getModelo()}, Portatil:${this.getPortatil()}, Mando:${this.getMandos()}}`
     }
 
 
     //Métodos
 
-        public encenderApagar(): void{
+        public encenderApagar(valor:boolean): void{
 
-        if(this.encendido){
+        if(valor==true){
 
                 this.encendido = true;
                 console.log("La consola está encendida")
@@ -84,9 +68,9 @@ export default class ConsolaDeVideojuegos {
             }
         }
 
-        public conectarInternet(): void {
+        public conectarInternet(valor:boolean): void{
 
-        if (this.conexionInternet) {
+            if(valor==true) {
 
                 this.conexionInternet = true; 
                 console.log("La consola está conectada a internet")
@@ -98,9 +82,9 @@ export default class ConsolaDeVideojuegos {
             }       
         }
 
-        public iniciarVideojuego(): void {
+        public iniciarVideojuego(valor:boolean): void{
 
-        if (this.iniciaVideojuego) {
+            if(valor==true) {
 
                 this.iniciaVideojuego = true; 
                 console.log("La consola inició el videojuego")
