@@ -6,7 +6,7 @@ package.json
 *.PNG
 *.docx
 *doc
-
+*.pptx
 .gitignore
 Nueva carpeta
 
