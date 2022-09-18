@@ -21,6 +21,7 @@
 
     height: 150px;
     display: block;
+    margin: 0 20px 0 20px;
 
 }
 
@@ -37,4 +38,9 @@
     border: solid;
     border-color: black;
     background-color: grey;
+}
+
+.fotos{
+
+    margin: 10px 100px 30px 100px;
 }

@@ -10,7 +10,9 @@ package.json
 .gitignore
 Nueva carpeta
 
-node_modules
+/node_modules
+*/node_modules
+*/*/node_modules
 Problemas js.txt
 Material de consulta
 .vscode
